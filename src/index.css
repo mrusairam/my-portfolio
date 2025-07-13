@@ -1,8 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   margin: 0;
   font-family: "Raleway", serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+}
+#logo{
+  width: 40px;
+  height: 40px;
+  color: blueviolet;
+  font-weight: 900px;
+  font-size: 30px;
 }
